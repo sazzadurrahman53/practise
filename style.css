@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #231D2B;
+    background-image: url('images/bg-stars.svg');
+    height: 100vh;
+  
+}
+
+.container {
+    position: relative;
+    top: 200px;
+    height: 100vh;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 80px;
+    color: aliceblue;
+    letter-spacing: 5px;
+}
+
+.count-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* margin-top:150px; */
+}
+
+.days-count h1,
+.hours-count h1,
+.minutes-count h1,
+.seconds-count h1 {
+    background-color: #2C2C44;
+    margin-left: 30px;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #F95D87;
+    border-radius: 10px;
+}
+
+.count-bar h6 {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+    color: #8588A7
+}
+
+.footer-icons {
+    text-align: center;
+    position: relative;
+    top: 100px;
+    letter-spacing: 10px;
+}
+.facebook img{
+    filter: brightness(0.5) sepia(1) hue-rotate(-70deg) saturate(5);
+z-index: 1;
+}
